@@ -1,0 +1,15 @@
+{
+	"name": "sjelfull/sse",
+	"description": "SSE",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Superbig",
+			"homepage": "https://superbig.co"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0",
+		"tonyhhyip/sse": "^2.1"
+	}
+}

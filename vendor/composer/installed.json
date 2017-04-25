@@ -1,0 +1,292 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "v1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/79ad876c7498c0bbfe7eed065b8651c93bfd6045",
+            "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2017-04-24 06:37:16",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Composer\\Installers\\Plugin",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Composer\\Installers\\": "src/Composer/Installers"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "https://composer.github.io/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Eliasis",
+            "Hurad",
+            "ImageCMS",
+            "Kanboard",
+            "MODX Evo",
+            "Mautic",
+            "Maya",
+            "OXID",
+            "Plentymarkets",
+            "Porto",
+            "RadPHP",
+            "SMF",
+            "Thelia",
+            "WolfCMS",
+            "agl",
+            "aimeos",
+            "annotatecms",
+            "attogram",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "cockpit",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "dokuwiki",
+            "drupal",
+            "elgg",
+            "expressionengine",
+            "fuelphp",
+            "grav",
+            "installer",
+            "itop",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lavalite",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "moodle",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "reindex",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "sydes",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "yawik",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-mbstring",
+        "version": "v1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
+            "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance"
+        },
+        "time": "2016-11-14 01:06:16",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/http-foundation",
+        "version": "v3.2.7",
+        "version_normalized": "3.2.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/http-foundation.git",
+            "reference": "cb0b6418f588952c9290b3df4ca650f1b7ab570a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/http-foundation/zipball/cb0b6418f588952c9290b3df4ca650f1b7ab570a",
+            "reference": "cb0b6418f588952c9290b3df4ca650f1b7ab570a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9",
+            "symfony/polyfill-mbstring": "~1.1"
+        },
+        "require-dev": {
+            "symfony/expression-language": "~2.8|~3.0"
+        },
+        "time": "2017-04-04 15:30:56",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\HttpFoundation\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony HttpFoundation Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "tonyhhyip/sse",
+        "version": "2.1.2",
+        "version_normalized": "2.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tonyhhyip/libSSE-php.git",
+            "reference": "13db192d3fa764c70bf0a7ca4e3d08b080d635b2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tonyhhyip/libSSE-php/zipball/13db192d3fa764c70bf0a7ca4e3d08b080d635b2",
+            "reference": "13db192d3fa764c70bf0a7ca4e3d08b080d635b2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9",
+            "symfony/http-foundation": "~2.7 | ~3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.2 | ~5.0"
+        },
+        "suggest": {
+            "predis/predis": "For using RedisMechnism",
+            "symfony/polyfill-apcu": "For APCMecnism on PHP < 7.0"
+        },
+        "time": "2017-02-21 12:32:50",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Sse\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Licson Lee",
+                "email": "licson0729@gmail.com",
+                "homepage": "https://licson.net/",
+                "role": "Owner"
+            },
+            {
+                "name": "Tony Yip",
+                "email": "tony@opensource.hk",
+                "homepage": "https://github.com/tonyhhyip",
+                "role": "Developer"
+            }
+        ],
+        "description": "An easy-to-use, object-orienlated library for Server-Sent Events",
+        "homepage": "https://github.com/licson0729/libSSE-php",
+        "keywords": [
+            "sse"
+        ]
+    }
+]
